@@ -1,2 +1,2 @@
-// Paste only the published applicant-facing form link, never an editor/admin link.
-window.HQU_PUBLIC_CONFIG = {applicationFormUrl:'',applicationFormUrlTh:''};
+// Public Supabase connection only. Never include passwords, service_role or sb_secret_ keys.
+window.HQU_PUBLIC_CONFIG = {url:'',publishableKey:'',siteURL:'https://hquthailand.org'};
